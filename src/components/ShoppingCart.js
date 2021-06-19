@@ -23,7 +23,7 @@ function ShoppingCart() {
                 <div className="container">
                   <div style={{textAlign:'right'}} className="totals">
                     <div className="total-items">Qty :{total}</div>
-                    <div className="total-quantity">Total {totalAmount}</div>
+                    <div className="total-quantity">Total {totalAmount.toFixed(2)}</div>
                   </div> 
                 </div> 
         </> 
